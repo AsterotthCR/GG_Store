@@ -1,0 +1,7 @@
+{
+  "name": "gg.store.frontend",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
