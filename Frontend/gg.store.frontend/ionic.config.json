@@ -1,5 +1,7 @@
 {
-  "name": "ionic-app-base",
-  "integrations": {},
+  "name": "gg.store.frontend",
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular-standalone"
 }
