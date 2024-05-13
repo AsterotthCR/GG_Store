@@ -1,0 +1,13 @@
+<div class="product-category" id="sudaderas">
+  <h1>Sudaderas...</h1>
+  <swiper-container
+    [pagination]="{ type: 'bullets', clickable: true }"
+    navigation="true"
+  >
+    <swiper-slide *ngFor="let img of swiper_images">
+      <div class="swiper-zoom-container">
+        <img src="/assets/img/prueba1.png" alt="Products" />
+      </div>
+    </swiper-slide>
+  </swiper-container>
+</div>

@@ -1,27 +1,35 @@
-#container {
+ion-card {
   text-align: center;
+  background-color: #ffff;
+  border: 3px solid #000000;
+  border-radius: 10px;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  img {
+    display: block;
+    margin: 0 auto; /* Center the image within its container */
+  }
+
+  ion-card-title,
+  ion-card-subtitle {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-button{
+  border: solid black;
+  border-radius: 15px;
+  margin-top: 25px;
+  display: flex; /* Permite centrar el botón */
+  text-shadow: 1px 1px rgba(32, 32, 32, 0.3);
+  --background: #1B2D57;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
 
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+h1 {
+  text-align: center;
+  font-family: Orbitron;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }

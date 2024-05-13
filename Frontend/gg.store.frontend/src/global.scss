@@ -28,3 +28,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+ion-content{
+    --ion-background-color: #ffff;
+    --color: #ffff;
+}
+p{
+    font-size: 1em;
+    font-family: orbitron, sans-serif;
+}
+
+.d-flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
