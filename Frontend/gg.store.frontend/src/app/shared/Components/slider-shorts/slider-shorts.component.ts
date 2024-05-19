@@ -34,7 +34,7 @@ export class SliderShortsComponent  implements AfterViewInit {
   //Parametros del swiper
 
   swiperParams1= {
-    slidesPerView: 1,
+    slidesPerView: 5,
     breakpoints: {
       0: {
         slidesPerView: 3,

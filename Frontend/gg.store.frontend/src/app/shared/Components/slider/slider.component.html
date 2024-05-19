@@ -1,13 +1,20 @@
-<div class="product-category" id="sudaderas">
-  <h1>Sudaderas...</h1>
-  <swiper-container
-    [pagination]="{ type: 'bullets', clickable: true }"
-    navigation="true"
-  >
-    <swiper-slide *ngFor="let img of swiper_images">
-      <div class="swiper-zoom-container">
-        <img src="/assets/img/prueba1.png" alt="Products" />
+<section class="products container" id="lista-3">
+  <h2>Productos</h2>
+  <div class="swiper mySwiper-2">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" *ngFor="let product of products">
+        <div class="product">
+          <img [src]="product.img" alt="">
+          <div class="product-txt">
+            <h3>{{ product.name }}</h3>
+            <p>{{ product.description }}</p>
+            <p class="precio">{{ product.price }}</p>
+            <a href="#" class="agregar-carrito btn-3" [attr.data-id]="product.id">Agregar al carrito</a>
+          </div>
+        </div>
       </div>
-    </swiper-slide>
-  </swiper-container>
-</div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</section>
