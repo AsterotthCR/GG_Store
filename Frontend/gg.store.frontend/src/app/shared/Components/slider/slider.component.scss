@@ -1,0 +1,12 @@
+.product-category swiper-container {
+  width: 100%;
+  height: 300px; /* Ajusta la altura según tus necesidades */
+  margin-top:-90px;
+}
+.product-category swiper-slide img {
+  border-radius: 50%;
+  border: 2px solid black;
+  max-width: 90%; /* Reduce el tamaño máximo de la imagen */
+  height: auto;
+  background-color:#1B2D57;
+}

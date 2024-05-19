@@ -1,0 +1,54 @@
+<ion-content>
+  <div id="header">
+    <div id="appbar">
+      <div id="logo">
+        <img src="/assets/img/ggStoreLogo2.png" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <ion-card class="form-wrapper">
+      <ion-card-content>
+        <ion-item>
+          <ion-icon name="person"></ion-icon>
+          <ion-input aling type="text" placeholder="Name..." class="custom"></ion-input>
+        </ion-item>
+      </ion-card-content>
+      <ion-card-content>
+        <ion-item>
+          <ion-icon name="person"></ion-icon>
+          <ion-input type="text" placeholder="Last Name..." class="custom"></ion-input>
+        </ion-item>
+      </ion-card-content>
+      <ion-card-content>
+        <ion-item>
+          <ion-icon name="mail"></ion-icon>
+          <ion-input type="text" placeholder="Email..." class="custom"></ion-input>
+        </ion-item>
+      </ion-card-content>
+      <ion-card-content>
+        <ion-item>
+          <ion-icon name="lock-open"></ion-icon>
+          <ion-input type="text" placeholder="Password..." class="custom"></ion-input>
+        </ion-item>
+      </ion-card-content>
+      <ion-card-content>
+        <ion-item>
+          <ion-icon name="lock-closed"></ion-icon>
+          <ion-input type="text" placeholder="Confirm Password..." class="custom"></ion-input>
+        </ion-item>
+      </ion-card-content>
+
+    </ion-card>
+  </div>
+
+  <div class="gotoRegister">
+    <strong><h1 class="orbitron">U Allready have an account?</h1></strong>
+    <ion-button class="registerButton" [routerLink]="['/login']">Log In Here :)</ion-button>
+  </div>
+
+  <div class="login">
+    <ion-button  class="loginButton">Sing Up</ion-button>
+  </div>
+</ion-content>

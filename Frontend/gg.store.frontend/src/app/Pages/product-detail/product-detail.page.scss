@@ -1,0 +1,65 @@
+
+#productimg{
+    width: auto;
+    padding: auto;
+}
+ion-card {
+    background-color: #5C85E6;
+    color: #000;
+    margin-top: 0px; /* Ajusta este valor para superponer ligeramente sobre la imagen */
+    border-radius: 10px; /* Ajustar según el diseño deseado */
+    padding: 10px; /* Ajustar según el diseño deseado */
+    z-index: 1; /* Asegura que el ion-card esté por encima de la imagen */
+    border: solid black;
+  }
+  
+  ion-col {
+    border: solid 1px black;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .money{
+    justify-self: auto;
+    display: flex;
+  }
+
+  ion-title {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+  }
+  
+  p {
+    color: #000;
+  }
+  strong{
+    border-radius:5px;
+    font-family: orbitron;
+    border: black;
+  }
+  
+  .buy {
+    border: solid black;
+    border-radius: 15px;
+    margin-top: 25px;
+    display: flex; /* Permite centrar el botón */
+    text-shadow: 1px 1px rgba(32, 32, 32, 0.3);
+    --background: #1B2D57;
+  }
+
+  .shop{
+    border: solid black;
+    border-radius: 16px;
+    text-shadow: 1px 1px rgba(32, 32, 32, 0.3);
+    --background: #1B2D57;
+  }
+  
+  /* Para mantener legible el ion-title */
+  ion-title p {
+    margin: 5px; /* Ajusta según sea necesario */
+    padding: 5px; /* Ajusta según sea necesario */
+    border: 2px solid #000;
+  }
+  
